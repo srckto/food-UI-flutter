@@ -77,35 +77,3 @@ class _BaseScreenAppState extends State<BaseScreenApp> {
 
 
 
-
-// BottomNavigationBar(
-//         backgroundColor: Colors.white,
-//         currentIndex: _currentIndex,
-//         onTap: (value) {
-//           setState(() {
-//             _currentIndex = value;
-//           });
-//         },
-//         items: [
-//           BottomNavigationBarItem(
-//             icon: Image.asset("assets/icons/Page-1.png", width: 30),
-//             label: "data",
-//           ),
-//           BottomNavigationBarItem(
-//             icon: Image.asset("assets/icons/party.png", width: 30),
-//             label: "data",
-//           ),
-//           BottomNavigationBarItem(
-//             icon: Icon(null),
-//             label: "data",
-//           ),
-//           BottomNavigationBarItem(
-//             icon: Image.asset("assets/icons/coffee-cup.png", width: 30),
-//             label: "data",
-//           ),
-//           BottomNavigationBarItem(
-//             icon: Image.asset("assets/icons/food.png", width: 30),
-//             label: "data",
-//           ),
-//         ],
-//       ),
