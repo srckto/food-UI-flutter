@@ -1,17 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:meal_ui/models/food.dart';
-import 'package:meal_ui/screens/detail_screen.dart';
 import 'package:meal_ui/widgets/food_type_widget.dart';
 import 'package:meal_ui/widgets/meal_item_widget.dart';
 import 'package:meal_ui/widgets/search_widget.dart';
-import 'package:get/get.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    Size _size = MediaQuery.of(context).size;
+    // Size _size = MediaQuery.of(context).size;
     return SafeArea(
       child: Scaffold(
         backgroundColor: Theme.of(context).canvasColor,

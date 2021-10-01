@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meal_ui/constant.dart';
 import 'package:meal_ui/screens/base_screen.dart';
-import 'package:meal_ui/screens/home_screen.dart';
 
 void main() {
   runApp(MyApp());
