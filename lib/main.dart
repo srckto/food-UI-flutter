@@ -38,7 +38,6 @@ class MyApp extends StatelessWidget {
             fontSize: 15,
           ),
         ),
-
         appBarTheme: AppBarTheme(
           elevation: 0.0,
           color: Colors.transparent,
